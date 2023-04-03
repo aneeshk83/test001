@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: create a file
-      - run: echo "hi" >> /home/runner/work/test001/test001/new.txt
+        run: echo "hi" >> /home/runner/work/test001/test001/new.txt
       
       - name: Upload the file
         uses: actions/upload-artifact@v2
